@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./MovieDetails.css";
-import { BackIcon } from "../Components/BackIcon";
+import { BackIcon } from "../components/BackIcon";
 import { Link } from "react-router-dom";
 
 const apiKey = "15e762a0f90c9abe1d2e8b943c7fbe0b";
