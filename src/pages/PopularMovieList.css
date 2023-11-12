@@ -1,0 +1,43 @@
+.movie-list-page {
+    position: relative;
+}
+
+.movie-list {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tablet */
+@media (min-width: 667px) and (max-width: 1024px) {
+
+    .movie-list {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+
+}
+
+/*Desktop*/
+@media (min-width: 1025px) {
+
+    .movie-list {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+}
